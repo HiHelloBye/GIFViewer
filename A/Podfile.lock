@@ -1,0 +1,24 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - PinterestLayout (1.0.3)
+  - SideMenu (4.0.0)
+
+DEPENDENCIES:
+  - FLAnimatedImage (~> 1.0)
+  - PinterestLayout
+  - SideMenu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - PinterestLayout
+    - SideMenu
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  PinterestLayout: f1c7ec0254ffa842d69f1b43e4436c8ded4359b9
+  SideMenu: 70ee5657df63ec3382660ec4ef470bf1cf5db07d
+
+PODFILE CHECKSUM: 03953604f557cf3e94c5045fd6be1bac51fc5999
+
+COCOAPODS: 1.5.3
