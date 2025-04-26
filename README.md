@@ -1,43 +1,28 @@
 # GIFViewer
 Read Gif file from default album application.
 
-
 <div>
 <img width="200" src="https://user-images.githubusercontent.com/28393778/50256525-00d3b700-043a-11e9-85bd-595e14044b0d.jpg"></img>
 <img width="200" src="https://user-images.githubusercontent.com/28393778/50256552-1f39b280-043a-11e9-85a9-8294f4cc597f.gif"></img>
 </div>
 <br>
 
-<h3> You need CocoaPods! </h3>  
-<h4> -Installation</h4>
+GIFViewer is a simple iOS app designed to view GIF files.
 
-  1.   open your Terminal
-```c
-$ sudo gem install cocoapods
-```
-  2. enter the project path you want to apply the Cocoapods library.
-```c
-$ pod init
-```
-  3. and then you can see the Podfile in your project folder.  
-     Editing this Podfile, you can download libraries. 
-     <br>
-     (I use vi command, but you can also use the nano command.)  
-```$ nano Podfile ```
-```$ vi Podfile ```     
+At the time of development, the native iOS Photos app did not support GIF playback.  
+This project was created to provide a lightweight solution for displaying animated GIFs on iOS devices.
 
-  4.  You can write the desired library in the source code 'target 'CocoaPodsTest' do ~.  
-```c
-target 'MyApp' do   
-  pod 'FLAnimatedImage', '~> 1.0'  
-  pod 'PinterestLayout'
- end
-``` 
-<br>
+## Features
+- Load and display GIF files
+- Lightweight and smooth playback
+- Minimal and easy-to-use interface
 
-5. Save your Podfile.  
-   Run  ``` $ pod install ```  
-   Open the MyApp.xcworkspace.
+## Technologies Used
+- Swift
+- UIKit
+- [CocoaPods](https://cocoapods.org/) (dependency manager)
+*Note: Requires CocoaPods to install necessary libraries.*
 
 
-
+---
+> This project demonstrates an effort to solve real-world user inconvenience with a focused and simple mobile application.
